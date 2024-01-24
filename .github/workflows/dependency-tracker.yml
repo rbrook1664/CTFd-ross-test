@@ -1,0 +1,15 @@
+name: GitHub-dependency-track
+run-name: gitub-depencency-track
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+        uses: DependencyTrack/gh-upload-sbom@v2.0.0
+        with:
+          serverHostname: 'http://13.41.223.110/'
+          apiKey: 'odt_svGqQ5ldODsP3KFTgeuWD0b3yXlRVJN0'
+          projectName: 'test-ctfd'
+          projectVersion: 'master'
+          bomFilename: "/sampleCycloneDX (1).json"
+          autoCreate: true
