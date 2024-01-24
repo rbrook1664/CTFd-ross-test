@@ -16,7 +16,7 @@ jobs:
         apiKey: 'odt_svGqQ5ldODsP3KFTgeuWD0b3yXlRVJN0'
         projectName: 'test-ctfd'
         projectVersion: 'master'
-        bomFilename: "/sampleCycloneDX (1).json"
+        bomFilename: "sampleCycloneDX (1).json"
         autoCreate: true
 #   Explore-GitHub-Actions:
 #     runs-on: ubuntu-latest
