@@ -12,7 +12,7 @@ jobs:
     - name: Upload SBOM to DependencyTrack
       uses: DependencyTrack/gh-upload-sbom@v2.0.0
       with:
-        serverHostname: 'http://13.41.223.110/'
+        serverHostname: '13.41.223.110'
         apiKey: 'odt_svGqQ5ldODsP3KFTgeuWD0b3yXlRVJN0'
         projectName: 'test-ctfd'
         projectVersion: 'master'
